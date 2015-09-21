@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TestAccessibilityImageRegion_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" backgroundImage="group" contentMode="scaleAspectFit" id="icN-td-yVF"/>
+                        <imageView width="1" height="0.5" alignment="left" image="image" contentMode="scaleAspectFit" id="mcW-Pw-PoL"/>
+                    </items>
+                    <connections>
+                        <outlet property="bottomImage" destination="mcW-Pw-PoL" id="VFI-Ul-oAd"/>
+                        <outlet property="topGroup" destination="icN-td-yVF" id="p41-n7-CON"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
