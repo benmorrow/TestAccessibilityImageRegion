@@ -1,6 +1,6 @@
 # TestAccessibilityImageRegion
 
-watchOS 2 bug: accessibility image regions on a group
+watchOS 2: accessibility image region labels don't work on a group (Bug 22786253)
 
 The documentation says, "Use an accessibility image region object in conjunction with any interface object that displays an image, **either as part of its foreground or background content**."
 
